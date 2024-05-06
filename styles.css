@@ -1,0 +1,192 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+@import url('estrellas.css');
+
+* {
+    margin: 0;
+}
+#fondo {
+    height: 100%;
+    width: 100%;
+    
+}
+
+body {
+    background-color: black;
+}
+/* .juego {
+    background-image: url("sprites/eRSg+v.gif");
+    background-size: cover;
+    background-position: 0 -200px;
+    width: 100%;
+    height: 100vh;
+} */
+.juego {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.jugar {
+    z-index: 1000;  
+    position: absolute;
+    right: 405px;
+    top: 400px;
+    width: 500px;
+    height: 210px;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(146, 17, 17);
+    
+    font-size: 200px;
+    background-color: transparent;
+    
+}
+@keyframes desplazamiento {
+    0% {
+        transform: translateY(0);
+    }
+    100%{
+            transform: translateY(100%);
+    }
+}
+.fondo-1{
+    bottom: 0%;
+}
+.fondo-2 {
+    bottom: 100%;
+}
+
+
+.fondo-1 {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-image: url("sprites/Starfield_01-1024x1024.png");
+    background-size: contain;
+    animation: desplazamiento 1.7s linear infinite;
+}
+.fondo-2 {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-image: url("sprites/Starfield_01-1024x1024.png");
+    background-size: contain;
+    animation: desplazamiento 1.7s linear infinite;
+}
+@keyframes desplazamientostars {
+    0% {
+        transform: translateY(0%);
+    }
+    100%{
+            transform: translateY(1200px);
+    }
+}
+@keyframes desplazamientodisparo {
+    0% {
+        transform: translateY(0%);
+    }
+    100%{
+            transform: translateY(-800px);
+    }
+}
+.nave {
+    z-index: 1000;  
+    position: absolute;
+    left: 600px;
+    top: 470px;
+    width: 100px;
+    height: 100px;
+    transition: left 200ms;
+    transition: top 200ms;
+      
+     
+    
+}
+.nave2 {
+    z-index: 1000;  
+    position: absolute;
+    left: 600px;
+    top: 470px;
+    width: 100px;
+    height: 100px;
+    transition: left 100ms;
+    transition: top 100ms;
+      
+}
+.imgnave {
+    height: 50px;
+    width: 50px;
+}
+.conteiner {
+    position: absolute;
+}
+.disparo {
+    position: absolute; 
+    right: 64px;
+    top: 20px;
+    width: 25px;
+    height: 25px;
+    display: none;
+    animation: desplazamientodisparo 0.4s linear infinite;
+
+
+    
+}
+.estructura {
+    position: relative;
+}
+.disparo2 {
+    position: absolute; 
+    right: 64px;
+    top: 20px;
+    width: 25px;
+    height: 25px;
+    display: none;
+    animation: desplazamientodisparo 0.4s linear infinite;
+
+
+    
+}
+.explosion {
+    position: absolute;
+    right: 20px;
+    top: -20px;
+    width: 100px;
+    height: 100px;
+    display: none;
+      
+
+}
+.enemigo {
+    z-index: 1000;  
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 600px;
+    bottom:  600px;
+    transform: rotateZ(180deg);
+
+}
+.meteorito {
+    z-index: 1000;  
+    position: absolute;
+    left: 300px;
+    width: 30px;
+    height: 60px;
+    transform: rotateZ(180deg);
+    animation: desplazamientometeorito 1.8s linear infinite !important;
+}
+
+
+@keyframes desplazamientometeorito {
+    0% {
+        top: -30px;
+    }
+    100%{
+        top: 1200px;
+    }
+    }

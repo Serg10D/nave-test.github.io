@@ -1,0 +1,136 @@
+.stars {
+    z-index: 1000;  
+    position: absolute;
+    right: 20px;
+   
+    width: 31px;
+    height: 31px;
+    animation: desplazamientostars 1.4s linear infinite;
+}
+.stars2 {
+    z-index: 1000;  
+    position: absolute;
+    left: 1px;
+   
+    width: 24px;
+    height: 24px;
+    animation: desplazamientostars 2.2s linear infinite;
+}
+.stars3 {
+    z-index: 1000;  
+    position: absolute;
+    right: 100px;
+   
+    width: 20px;
+    height: 20px;
+    animation: desplazamientostars 1.2s linear infinite;
+}
+.stars4 {
+    z-index: 1000;  
+    position: absolute;
+    right: 262px;
+   
+    width: 9px;
+    height: 9px;
+    animation: desplazamientostars 2.4s linear infinite;
+}
+.stars5 {
+    z-index: 1000;  
+    position: absolute;
+    right: 432px;
+   
+    width: 12px;
+    height: 12px;
+    animation: desplazamientostars 1.7s linear infinite;
+}
+.stars6 {
+    z-index: 1000;  
+    position: absolute;
+    right: 500px;
+   
+    width: 11px;
+    height: 11px;
+    animation: desplazamientostars 1.9s linear infinite;
+}
+.stars7 {
+    z-index: 1000;  
+    position: absolute;
+    right: 500px;
+   
+    width: 15px;
+    height: 15px;
+    animation: desplazamientostars 1.6s linear infinite;
+}.stars8 {
+    z-index: 1000;  
+    position: absolute;
+    right: 500px;
+   
+    width: 14px;
+    height: 14px;
+    animation: desplazamientostars 1.3s linear infinite;
+}.stars9 {
+    z-index: 1000;  
+    position: absolute;
+    right: 786px;
+   
+    width: 13px;
+    height: 13px;
+    animation: desplazamientostars 1.2s linear infinite;
+}.stars10 {
+    z-index: 1000;  
+    position: absolute;
+    left: 50px;
+   
+    width: 17px;
+    height: 17px;
+    animation: desplazamientostars 2.3s linear infinite;
+}.stars11 {
+    z-index: 1000;  
+    position: absolute;
+    right: 559px;
+   
+    width: 8px;
+    height: 8px;
+    animation: desplazamientostars 2.2s linear infinite;
+}.stars12 {
+    z-index: 1000;  
+    position: absolute;
+    right: 888px;
+   
+    width: 20px;
+    height: 20px;
+    animation: desplazamientostars 1.4s linear infinite;
+}.stars13 {
+    z-index: 1000;  
+    position: absolute;
+    right: 789px;
+   
+    width: 14px;
+    height: 14px;
+    animation: desplazamientostars 1.9s linear infinite;
+}.stars14 {
+    z-index: 1000;  
+    position: absolute;
+    left: 90px;
+   
+    width: 20px;
+    height: 20px;
+    animation: desplazamientostars 1.7s linear infinite;
+}.stars15 {
+    z-index: 1000;  
+    position: absolute;
+    right: 745px;
+    
+    width: 19px;
+    height: 19px;
+    animation: desplazamientostars 2.0s linear infinite;
+}.stars16 {
+    z-index: 1000;  
+    position: absolute;
+    right: 790px;
+   
+    width: 10px;
+    height: 10px;
+    animation: desplazamientostars 1.6s linear infinite;
+    
+}
